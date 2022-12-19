@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+  --corprincipal: #0A3871;
+  --corsegundaria: #E5E5E5;
+  --cortitulo: black;
+}
+
+body {
+  background: var(--corsegundatia);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'rubik', sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.cabecalho h1 {
+  color: var(--cortitulo);
+
+}
+.cabecalho  img {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.container-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+  width: 400px;
+  height: 330px;
+}
+
+#input-texto {
+  width: 345px;
+  height: 330px;
+  font-size: 20px;
+  color: var(--cortitulo);
+  background:transparent;
+  box-shadow: none;
+  border: none;
+  resize: none;
+  outline: 0;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--cortitulo);
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  margin-right: 3% ;
+}
+
+#output h2 {
+  text-align: center;
+  font-size: 25px;
+  color: var(--cortitulo);
+}
+
+#output span {
+  font-size: 16px;
+  text-align: center;
+}
+
+#output img {
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
+  width: auto;
+  margin-top: 4%;
+}
+
+.container-bnt button {
+  border: 2px solid var(--corprincipal);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--corsegundaria);
+  width: 150px;
+  height: 50px;
+  margin-left: 4%;
+  cursor: pointer;
+  background-color:var(--corprincipal); 
+}
+
+
+.container-bnt button:hover {
+  border: 2px solid var(--corprincipal);
+  transition: 1s all;
+  background-color: var(--corsegundaria);
+  color: var(--corprincipal);
+}
+
+.btn-copiar {
+  border: 2px solid var(--corprincipal);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--corsegundaria);
+  width: 150px;
+  height: 50px;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  cursor: pointer;
+  background-color:var(--corprincipal); 
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  margin-top: 15px;
+  background:#0A3871;
+  color:aqua;
+}
+
+.rodape h3 {
+  font-size: 16px;
+}
+
+.icons ion-icon {
+  width: 25px;
+  height: 25px;
+  color: black;
+}
+
+.icons ion-icon:hover {
+  color: var(--corsegundaria);
+}
