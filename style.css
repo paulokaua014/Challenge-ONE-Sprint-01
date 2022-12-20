@@ -1,146 +1,141 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-:root{
-  --corprincipal: #0A3871;
-  --corsegundaria: #E5E5E5;
-  --cortitulo: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 body {
-  background: var(--corsegundatia);
+    background: #E5E5E5;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'rubik', sans-serif;
 }
 
 .cabecalho {
-  display: flex;
-  justify-content: space-between;
-  padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
 }
 
 .cabecalho h1 {
-  color: var(--cortitulo);
+    font-size: 38px;
+    font-weight: bolder;
+    color: black;
 
 }
+
 .cabecalho  img {
-  max-width: 100px;
-  max-height: 100px;
-  width: auto;
-  height: auto;
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
 }
 
 .container-input {
-  display: flex;
-  justify-content: space-between;
-  padding: 2% 0 0 4%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
 }
 
 .container-input .input {
-  width: 400px;
-  height: 330px;
+    width: 400px;
+    height: 330px;
 }
 
 #input-texto {
-  width: 345px;
-  height: 330px;
-  font-size: 20px;
-  color: var(--cortitulo);
-  background:transparent;
-  box-shadow: none;
-  border: none;
-  resize: none;
-  outline: 0;
-  padding: 10px;
-  text-transform: uppercase;
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color:black;
+    background:transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 #output {
-  display: flex;
-  flex-direction: column;
-  border: 3px solid var(--cortitulo);
-  border-radius: 20px;
-  width: 350px;
-  height: 400px;
-  margin-right: 3% ;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3% ;
 }
 
 #output h2 {
-  text-align: center;
-  font-size: 25px;
-  color: var(--cortitulo);
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
 }
 
 #output span {
-  font-size: 16px;
-  text-align: center;
+    font-size: 16px;
+    text-align: center;
 }
 
 #output img {
-  max-width: 300px;
-  max-height: 300px;
-  height: auto;
-  width: auto;
-  margin-top: 4%;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 4%;
 }
 
 .container-bnt button {
-  border: 2px solid var(--corprincipal);
-  border-radius: 10px;
-  text-decoration: none;
-  color: var(--corsegundaria);
-  width: 150px;
-  height: 50px;
-  margin-left: 4%;
-  cursor: pointer;
-  background-color:var(--corprincipal); 
+    border: 2px solid aqua;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    background-color:aqua;
 }
 
 
 .container-bnt button:hover {
-  border: 2px solid var(--corprincipal);
-  transition: 1s all;
-  background-color: var(--corsegundaria);
-  color: var(--corprincipal);
+    border: 2px solid green;
+    transition: 1s all;
+    background-color:green;
+    color:rgb(255, 255, 255);  
 }
 
 .btn-copiar {
-  border: 2px solid var(--corprincipal);
-  border-radius: 10px;
-  text-decoration: none;
-  color: var(--corsegundaria);
-  width: 150px;
-  height: 50px;
-  margin-bottom: 10%;
-  margin-left: 30%;
-  cursor: pointer;
-  background-color:var(--corprincipal); 
+    border: 2px solid aqua;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    background-color:aqua; 
 }
 
 .rodape {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2%;
-  margin-top: 15px;
-  background:#0A3871;
-  color:aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    color:black;
 }
 
 .rodape h3 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .icons ion-icon {
-  width: 25px;
-  height: 25px;
-  color: black;
+    width: 25px;
+    height: 25px;
+    color: black;
 }
 
 .icons ion-icon:hover {
-  color: var(--corsegundaria);
+    color: black;
 }
