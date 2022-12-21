@@ -2,7 +2,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-    
+
 body {
     background-color: #F3F5FC;
     display: flex;
@@ -355,7 +355,7 @@ footer a {
     #txt-area2 {
         font-size: 16px;
         height: 100px;
-        margin: 0 0 15px;
+        margin: 0 0 15px 15px;
     }
 
     #txt-area2::placeholder {
